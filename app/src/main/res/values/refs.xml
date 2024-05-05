@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="pet_default">pet_default</drawable>
+    <drawable name="clean_icon">clean_icon</drawable>
+    <drawable name="images">images</drawable>
+</resources>

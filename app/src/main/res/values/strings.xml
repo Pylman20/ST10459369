@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Tamagothic App 02</string>
+    <string name="welcome_to_tamagothic">Welcome to Tamagothic!</string>
+    <string name="Welcome_to_Tamagothic">Welcome to Tamagothic</string>
+    <string name="start">Get Started</string>
+    <string name="todo">TODO</string>
+    <string name="feed">Feed</string>
+    <string name="clean">Clean</string>
+    <string name="play">Play</string>
+    <string name="Start">Strart</string>
+    <string name="Welcome_to_tamagothic">Welcome to Tamagothic!</string>
+    <string name="welcome_to_Tamagothic">Welcome_to_Tamagotic</string>
+    <string name="Welcome_to_Tamagothict">welcome_to_Tamagothict</string>
+    <string name="Welcome_to_Tamagothict_">Welcome_to_Tamagothict</string>
+    <string name="Todo">\@TODO</string>
+    <string name="get_started">Get Started</string>
+    <string name="second_screen">Second Screen</string>
+    <string name="ToDo">TODO</string>
+    <string name="welcome">Welcome!</string>
+    <string name="Feed">Feed</string>
+    <string name="Cean">Clean</string>
+    <string name="O">TODO</string>
+    <string name="Play">Play</string>
+    <string name="TOdo">TODO</string>
+    <string name="ToDO">TODO</string>
+    <string name="todO">TODO</string>
+    <string name="TODO">TODO</string>
+</resources>

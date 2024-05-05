@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="imagePet" type="id">imagePet</item>
+    <item name="ImagePet" type="id">imagePet</item>
+    <item name="pet_image" type="id">pet_image</item>
+    <item name="pet_Image" type="id">pet_Image</item>
+    <item name="Pet_image" type="id">pet_image</item>
+</resources>

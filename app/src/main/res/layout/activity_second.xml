@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imagePet"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/TOdo"
+        android:src="@drawable/pet_default"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="642dp" />
+
+    <Button
+        android:id="@+id/buttonFeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imagePet"
+        android:layout_alignParentEnd="true"
+        android:text="@string/Feed"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="307dp"
+        tools:layout_editor_absoluteY="594dp" />
+
+    <!-- Feed action -->
+
+    <ImageView
+        android:id="@+id/imageFeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imagePet"
+        android:layout_alignParentEnd="true"
+        android:contentDescription="@string/ToDO"
+        android:src="@drawable/_4764132_a_cartoon_illustration_of_a_husky_with_a_bowl_of_food"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="-33dp" />
+
+    <Button
+        android:id="@+id/buttonClean"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imagePet"
+        android:layout_toStartOf="@id/buttonFeed"
+        android:text="@string/clean"
+        tools:ignore="MissingConstraints,UnknownId"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="594dp" />
+
+    <!-- Clean action -->
+
+    <ImageView
+        android:id="@+id/imageClean"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imagePet"
+        android:layout_toStartOf="@id/imageFeed"
+        android:contentDescription="@string/todO"
+        android:src="@drawable/download__3_"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="714dp" />
+
+    <Button
+        android:id="@+id/buttonPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonFeed"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Play"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="594dp" />
+
+    <!-- Play action -->
+    <ImageView
+        android:id="@+id/imagePlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageFeed"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/TODO"
+        android:src="@drawable/images__4_"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="742dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
